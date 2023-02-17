@@ -3,10 +3,18 @@ session_start();
 
 // Check if the user is already logged in and redirect to the home page
 if (isset($_SESSION['access_token'])) {
-    echo '<script>alert("' . $_SESSION['access_token_exp_time'] . '");</script>';
-    header("Location: ../index.php");
-    exit();
+    $exp_time = strtotime($_SESSION['access_token_exp_time']);
+    if (time() >= $exp_time) {
+        session_unset();
+        session_destroy();
+        header("Location: ../auth/login.php");
+        exit();
+    } else {
+        header("Location: ../auth/index.php");
+        exit();
+    }
 }
+
 
 // Check for an error message
 if (isset($_SESSION['error'])) {
