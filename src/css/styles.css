@@ -150,7 +150,29 @@ tbody tr:hover {
 
 
 
-
-
-
-
+.navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link .bi {
+    font-size: 1.5rem;
+    vertical-align: middle;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link .text-white {
+    font-size: 1.2rem;
+    font-weight: bold;
+    vertical-align: middle;
+  }
