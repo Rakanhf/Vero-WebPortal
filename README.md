@@ -1,3 +1,49 @@
+# Vero Project Documentation
+### Welcome to the documentation for the Vero project.
+---
+### Project Overview
+You can access the website using ```https://vero.rakan.engineer``` . 
+
+### Folder Structure
+```
+├── .github
+│   └── workflows
+│       └── main.yml
+├── api
+│   ├── process_login.php
+│   └── update-table.php
+├── auth
+│   ├── login.php
+│   └── logout.php
+├── src
+│   ├── css
+│   ├── images
+│   └── js
+│       └── index.js
+├── .htaccess
+├── 404.html
+└── index.php
+```
+---
+## Files
+`.github/workflows/main.yml`: This file contains the GitHub Actions workflow for automatically deploying the application to an FTP server.
+`api/process_login.php`: This file contains the logic for processing login attempts.
+`api/update-table.php`: This file contains the logic for retrieving and displaying data from the Api Endpoint.
+`auth/login.php`: This file contains the HTML and PHP code for the login page.
+`auth/logout.php`: This file contains the logic for logging out the user.
+`src/css`: This directory contains the CSS files used for styling the web pages.
+`src/images`: This directory contains the images used in the web pages.
+`src/js/index.js`: This file contains the JavaScript code for reloading (after 60 mins) and searching the table.
+`.htaccess`: This file contains rules for redirecting URLs and setting the default file for the web server.
+`404.html`: This file contains the HTML code for the 404 page.
+`index.php`: This file contains the HTML and PHP code for the main page.
+
+## Usage
+To use the Vero web application, follow these steps:
+1. Navigate to the https://vero.rakan.engineer website.
+2. Login using Username : `356` & Password `1`
+
+---
 Hello dear web portal dev prospect!
 
 This repository is a playground for your submission which should use PHP in the backend and HTML/JS in the frontend.
