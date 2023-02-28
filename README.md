@@ -2,7 +2,7 @@
 ### Welcome to the documentation for the Vero project.
 ---
 ### Project Overview
-You can access the website using ```https://vero.rakan.engineer``` . 
+You can access the website using ```https://vero.rakan.com.tr``` . 
 
 ### Folder Structure
 ```
