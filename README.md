@@ -40,7 +40,7 @@ You can access the website using ```https://vero.rakan.com.tr``` .
 
 ## Usage
 To use the Vero web application, follow these steps:
-1. Navigate to the https://vero.rakan.engineer website.
+1. Navigate to the https://vero.rakan.com.tr website.
 2. Login using Username : `356` & Password `1`
 
 ---
